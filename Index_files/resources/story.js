@@ -894,8 +894,8 @@ var story = {
   },
   {
    "title": "Dashboard",
-   "height": 4209,
-   "width": 1154,
+   "height": 4314,
+   "width": 1173,
    "image": "Dashboard.png",
    "links": [{
     "page": 27,

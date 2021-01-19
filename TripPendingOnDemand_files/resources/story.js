@@ -3,7 +3,7 @@ var story = {
  "pages": [{
   "title": "TripPendingOnDemand",
   "height": 1512,
-  "width": 969,
+  "width": 998,
   "image": "TripPendingOnDemand.png",
   "links": [],
   "image2x": "TripPendingOnDemand@2x.png"
