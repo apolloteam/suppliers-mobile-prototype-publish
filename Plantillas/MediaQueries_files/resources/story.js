@@ -1,13 +1,11 @@
 var story = {
- "title": "MediaQueries",
  "pages": [{
-  "title": "MediaQueries",
-  "height": 2247,
-  "width": 977,
   "image": "MediaQueries.png",
+  "width": 977,
   "links": [],
-  "image2x": "MediaQueries@2x.png"
+  "title": "MediaQueries",
+  "height": 2247
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "MediaQueries",
+ "highlightLinks": true
 }

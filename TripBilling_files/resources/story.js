@@ -1,13 +1,11 @@
 var story = {
- "title": "TripBilling",
  "pages": [{
-  "title": "TripBilling",
-  "height": 2525,
-  "width": 822,
   "image": "TripBilling.png",
+  "width": 822,
   "links": [],
-  "image2x": "TripBilling@2x.png"
+  "title": "TripBilling",
+  "height": 2525
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "TripBilling",
+ "highlightLinks": true
 }

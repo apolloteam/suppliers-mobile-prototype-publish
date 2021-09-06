@@ -93,14 +93,6 @@ a, a:focus {
 	text-indent: -9999px;
 }
 
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-	#nav ul li a span, #nav-hide a span {
-		background-image: url(icons@2x.png);
-		-webkit-background-size: 80px 48px;
-		background-size: 80px 48px;
- 	}
-}
-
 #nav-left {
 	float: left;
 }

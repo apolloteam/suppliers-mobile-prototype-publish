@@ -1,13 +1,11 @@
 var story = {
- "title": "AppNews",
  "pages": [{
-  "title": "AppNews",
-  "height": 794,
-  "width": 1009,
   "image": "AppNews.png",
+  "width": 1009,
   "links": [],
-  "image2x": "AppNews@2x.png"
+  "title": "AppNews",
+  "height": 794
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "AppNews",
+ "highlightLinks": true
 }

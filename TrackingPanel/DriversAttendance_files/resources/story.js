@@ -1,13 +1,11 @@
 var story = {
- "title": "DriversAttendance",
  "pages": [{
-  "title": "DriversAttendance",
-  "height": 1258,
-  "width": 1025,
   "image": "DriversAttendance.png",
+  "width": 1025,
   "links": [],
-  "image2x": "DriversAttendance@2x.png"
+  "title": "DriversAttendance",
+  "height": 1258
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "DriversAttendance",
+ "highlightLinks": true
 }

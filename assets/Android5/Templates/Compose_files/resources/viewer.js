@@ -6,25 +6,16 @@ function createViewer(story, files) {
 		initialize: function() {
 			this.createImageMaps();
 			this.addHotkeys();
-			this.initializeHighDensitySupport();
 		},
-		initializeHighDensitySupport: function() {
-			if (window.matchMedia) {
-				this.hdMediaQuery = window
-						.matchMedia("only screen and (min--moz-device-pixel-ratio: 1.1), only screen and (-o-min-device-pixel-ratio: 2.2/2), only screen and (-webkit-min-device-pixel-ratio: 1.1), only screen and (min-device-pixel-ratio: 1.1), only screen and (min-resolution: 1.1dppx)");
-				var v = this;
-				this.hdMediaQuery.addListener(function(e) {
-					v.refresh();
-				});
+		preloadImages: function() {
+			var pages = story.pages;
+			for(var i = 0; i < pages.length; i ++) {
+				var cacheImage = document.createElement('img');
+				cacheImage.src = encodeURIComponent(files) + '/' + encodeURIComponent(pages[i].image);
+				this.cache.push(cacheImage);
 			}
 		},
-		isHighDensityDisplay: function() {
-			return (this.hdMediaQuery && this.hdMediaQuery.matches || (window.devicePixelRatio && window.devicePixelRatio > 1));
-		},
 		createImageMaps: function() {
-			var div = $('<div/>', {
-				'class': 'hidden'
-			});
 			var pages = story.pages;
 			for(var i = 0; i < pages.length; i ++) {
 				var page = pages[i];
@@ -33,6 +24,7 @@ function createViewer(story, files) {
 					id: name,
 					name: name
 				});
+				map.appendTo('body');
 				for(var j = page.links.length - 1; j >= 0; j --) {
 					var link = page.links[j];
 					var title, href, target;
@@ -55,9 +47,7 @@ function createViewer(story, files) {
 						target: target
 					}).appendTo(map);
 				}
-				map.appendTo(div);
 			}
-			div.appendTo('body');
 		},
 		addHotkeys: function() {
 			var v = this;
@@ -126,24 +116,23 @@ function createViewer(story, files) {
 			$('#nav-right-links').toggleClass('disabled', page.links.length == 0);
 			
 			if(this.hasPrevious()) {
-				$('#nav-left-prev a').attr('title', story.pages[this.currentPage - 1].title);
+				$('#nav-left-prev a').attr('title', story.pages[this.currentPage - 1].title)
 			} else {
 				$('#nav-left-prev a').removeAttr('title');
 			}
 			
 			if(this.hasNext()) {
-				$('#nav-left-next a').attr('title', story.pages[this.currentPage + 1].title);
+				$('#nav-left-next a').attr('title', story.pages[this.currentPage + 1].title)
 			} else {
 				$('#nav-left-next a').removeAttr('title');
 			}
 			
-			var hasRetinaImages = $.inArray(2, story.resolutions) != -1; 
-			var imageURI = hasRetinaImages && this.isHighDensityDisplay() ? page.image2x : page.image;
-			
 			var img = $('<img/>', {
-				src : encodeURIComponent(files) + '/' + encodeURIComponent(imageURI),
-				usemap: '#map' + this.currentPage
-			}).attr('width', page.width).attr('height', page.height);
+				src : encodeURIComponent(files) + '/' + encodeURIComponent(page.image),
+				usemap: '#map' + this.currentPage,
+				width: page.width,
+				height: page.height
+			});
 			
 			var highlight = this.highlightLinks;
 	

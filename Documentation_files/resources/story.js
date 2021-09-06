@@ -1,13 +1,11 @@
 var story = {
- "title": "Documentation",
  "pages": [{
-  "title": "Documentation",
-  "height": 1642,
-  "width": 1113,
   "image": "Documentation.png",
+  "width": 1113,
   "links": [],
-  "image2x": "Documentation@2x.png"
+  "title": "Documentation",
+  "height": 1642
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "Documentation",
+ "highlightLinks": true
 }

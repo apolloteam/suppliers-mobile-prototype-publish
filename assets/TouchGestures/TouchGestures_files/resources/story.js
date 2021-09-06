@@ -1,13 +1,11 @@
 var story = {
- "title": "TouchGestures",
  "pages": [{
-  "title": "TouchGestures",
-  "height": 425,
-  "width": 402,
   "image": "TouchGestures.png",
+  "width": 400,
   "links": [],
-  "image2x": "TouchGestures@2x.png"
+  "title": "TouchGestures",
+  "height": 425
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "TouchGestures",
+ "highlightLinks": true
 }

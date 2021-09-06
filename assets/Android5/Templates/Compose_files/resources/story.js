@@ -1,13 +1,11 @@
 var story = {
- "title": "Compose",
  "pages": [{
-  "title": "Compose",
-  "height": 567,
-  "width": 360,
   "image": "Compose.png",
+  "width": 360,
   "links": [],
-  "image2x": "Compose@2x.png"
+  "title": "Compose",
+  "height": 567
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "Compose",
+ "highlightLinks": true
 }

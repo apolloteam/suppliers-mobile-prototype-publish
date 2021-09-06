@@ -1,13 +1,11 @@
 var story = {
- "title": "TrackingPanel",
  "pages": [{
-  "title": "TrackingPanel",
-  "height": 1411,
-  "width": 977,
   "image": "TrackingPanel.png",
+  "width": 977,
   "links": [],
-  "image2x": "TrackingPanel@2x.png"
+  "title": "TrackingPanel",
+  "height": 1411
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "TrackingPanel",
+ "highlightLinks": true
 }

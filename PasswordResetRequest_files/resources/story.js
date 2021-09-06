@@ -1,13 +1,11 @@
 var story = {
- "title": "PasswordResetRequest",
  "pages": [{
-  "title": "PasswordResetRequest",
-  "height": 794,
-  "width": 1107,
   "image": "PasswordResetRequest.png",
+  "width": 1107,
   "links": [],
-  "image2x": "PasswordResetRequest@2x.png"
+  "title": "PasswordResetRequest",
+  "height": 794
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "PasswordResetRequest",
+ "highlightLinks": true
 }

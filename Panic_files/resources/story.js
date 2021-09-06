@@ -1,13 +1,11 @@
 var story = {
- "title": "Panic",
  "pages": [{
-  "title": "Panic",
-  "height": 1407,
-  "width": 887,
   "image": "Panic.png",
+  "width": 887,
   "links": [],
-  "image2x": "Panic@2x.png"
+  "title": "Panic",
+  "height": 1407
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "Panic",
+ "highlightLinks": true
 }

@@ -1,13 +1,11 @@
 var story = {
- "title": "TripFilter",
  "pages": [{
-  "title": "TripFilter",
-  "height": 863,
-  "width": 1050,
   "image": "TripFilter.png",
+  "width": 1050,
   "links": [],
-  "image2x": "TripFilter@2x.png"
+  "title": "TripFilter",
+  "height": 863
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "TripFilter",
+ "highlightLinks": true
 }

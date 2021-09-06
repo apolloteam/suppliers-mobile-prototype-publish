@@ -1,13 +1,11 @@
 var story = {
- "title": "Nexus 7",
  "pages": [{
-  "title": "Nexus 7",
-  "height": 1265,
-  "width": 2023,
   "image": "Nexus 7.png",
+  "width": 2023,
   "links": [],
-  "image2x": "Nexus 7@2x.png"
+  "title": "Nexus 7",
+  "height": 1265
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "Nexus 7",
+ "highlightLinks": true
 }

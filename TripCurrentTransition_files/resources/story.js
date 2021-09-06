@@ -1,13 +1,11 @@
 var story = {
- "title": "TripCurrentTransition",
  "pages": [{
-  "title": "TripCurrentTransition",
-  "height": 2525,
-  "width": 802,
   "image": "TripCurrentTransition.png",
+  "width": 802,
   "links": [],
-  "image2x": "TripCurrentTransition@2x.png"
+  "title": "TripCurrentTransition",
+  "height": 2525
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "TripCurrentTransition",
+ "highlightLinks": true
 }

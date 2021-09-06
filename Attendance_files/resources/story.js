@@ -1,13 +1,11 @@
 var story = {
- "title": "Attendance",
  "pages": [{
-  "title": "Attendance",
-  "height": 794,
-  "width": 934,
   "image": "Attendance.png",
+  "width": 934,
   "links": [],
-  "image2x": "Attendance@2x.png"
+  "title": "Attendance",
+  "height": 794
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "Attendance",
+ "highlightLinks": true
 }

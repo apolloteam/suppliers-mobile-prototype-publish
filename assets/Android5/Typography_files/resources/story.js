@@ -1,13 +1,11 @@
 var story = {
- "title": "Typography",
  "pages": [{
-  "title": "Typography",
-  "height": 153,
-  "width": 367,
   "image": "Typography.png",
+  "width": 368,
   "links": [],
-  "image2x": "Typography@2x.png"
+  "title": "Typography",
+  "height": 151
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "Typography",
+ "highlightLinks": true
 }

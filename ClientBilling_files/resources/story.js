@@ -1,13 +1,11 @@
 var story = {
- "title": "ClientBilling",
  "pages": [{
-  "title": "ClientBilling",
-  "height": 892,
-  "width": 1005,
   "image": "ClientBilling.png",
+  "width": 1005,
   "links": [],
-  "image2x": "ClientBilling@2x.png"
+  "title": "ClientBilling",
+  "height": 892
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "ClientBilling",
+ "highlightLinks": true
 }

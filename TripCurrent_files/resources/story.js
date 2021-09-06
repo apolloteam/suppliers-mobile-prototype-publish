@@ -1,13 +1,11 @@
 var story = {
- "title": "TripCurrent",
  "pages": [{
-  "title": "TripCurrent",
-  "height": 845,
-  "width": 958,
   "image": "TripCurrent.png",
+  "width": 958,
   "links": [],
-  "image2x": "TripCurrent@2x.png"
+  "title": "TripCurrent",
+  "height": 845
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "TripCurrent",
+ "highlightLinks": true
 }

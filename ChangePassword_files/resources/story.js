@@ -1,13 +1,11 @@
 var story = {
- "title": "ChangePassword",
  "pages": [{
-  "title": "ChangePassword",
-  "height": 1409,
-  "width": 788,
   "image": "ChangePassword.png",
+  "width": 779,
   "links": [],
-  "image2x": "ChangePassword@2x.png"
+  "title": "ChangePassword",
+  "height": 1409
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "ChangePassword",
+ "highlightLinks": true
 }

@@ -1,13 +1,11 @@
 var story = {
- "title": "TripClosureSignature",
  "pages": [{
-  "title": "TripClosureSignature",
-  "height": 2921,
-  "width": 1227,
   "image": "TripClosureSignature.png",
+  "width": 1227,
   "links": [],
-  "image2x": "TripClosureSignature@2x.png"
+  "title": "TripClosureSignature",
+  "height": 2921
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "TripClosureSignature",
+ "highlightLinks": true
 }

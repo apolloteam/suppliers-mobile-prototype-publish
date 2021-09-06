@@ -1,13 +1,11 @@
 var story = {
- "title": "MessagingOpe",
  "pages": [{
-  "title": "MessagingOpe",
-  "height": 856,
-  "width": 1169,
   "image": "MessagingOpe.png",
+  "width": 1169,
   "links": [],
-  "image2x": "MessagingOpe@2x.png"
+  "title": "MessagingOpe",
+  "height": 856
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "MessagingOpe",
+ "highlightLinks": true
 }

@@ -1,13 +1,11 @@
 var story = {
- "title": "DriverFiles",
  "pages": [{
-  "title": "DriverFiles",
-  "height": 794,
-  "width": 1078,
   "image": "DriverFiles.png",
+  "width": 1078,
   "links": [],
-  "image2x": "DriverFiles@2x.png"
+  "title": "DriverFiles",
+  "height": 794
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "DriverFiles",
+ "highlightLinks": true
 }

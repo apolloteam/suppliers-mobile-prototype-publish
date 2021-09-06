@@ -1,13 +1,11 @@
 var story = {
- "title": "TripDone",
  "pages": [{
-  "title": "TripDone",
-  "height": 2257,
-  "width": 925,
   "image": "TripDone.png",
+  "width": 925,
   "links": [],
-  "image2x": "TripDone@2x.png"
+  "title": "TripDone",
+  "height": 2257
  }],
- "highlightLinks": true,
- "resolutions": [2]
+ "title": "TripDone",
+ "highlightLinks": true
 }
