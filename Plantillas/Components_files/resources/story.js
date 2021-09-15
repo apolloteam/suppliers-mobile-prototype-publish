@@ -4,7 +4,7 @@ var story = {
   "width": 425,
   "links": [],
   "title": "Components",
-  "height": 3477
+  "height": 3472
  }],
  "title": "Components",
  "highlightLinks": false
