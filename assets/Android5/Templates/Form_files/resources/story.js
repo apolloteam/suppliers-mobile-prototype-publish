@@ -7,5 +7,5 @@ var story = {
   "height": 300
  }],
  "title": "Form",
- "highlightLinks": true
+ "highlightLinks": false
 }

@@ -7,5 +7,5 @@ var story = {
   "height": 2921
  }],
  "title": "TripClosureSignature",
- "highlightLinks": true
+ "highlightLinks": false
 }

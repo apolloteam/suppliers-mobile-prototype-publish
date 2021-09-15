@@ -7,5 +7,5 @@ var story = {
   "height": 2247
  }],
  "title": "MediaQueries",
- "highlightLinks": true
+ "highlightLinks": false
 }

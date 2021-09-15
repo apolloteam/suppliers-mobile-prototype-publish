@@ -7,5 +7,5 @@ var story = {
   "height": 151
  }],
  "title": "Typography",
- "highlightLinks": true
+ "highlightLinks": false
 }

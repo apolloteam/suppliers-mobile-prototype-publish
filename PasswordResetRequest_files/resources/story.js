@@ -7,5 +7,5 @@ var story = {
   "height": 794
  }],
  "title": "PasswordResetRequest",
- "highlightLinks": true
+ "highlightLinks": false
 }

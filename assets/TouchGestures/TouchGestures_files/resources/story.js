@@ -7,5 +7,5 @@ var story = {
   "height": 425
  }],
  "title": "TouchGestures",
- "highlightLinks": true
+ "highlightLinks": false
 }

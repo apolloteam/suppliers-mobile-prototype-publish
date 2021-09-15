@@ -7,5 +7,5 @@ var story = {
   "height": 1258
  }],
  "title": "DriversAttendance",
- "highlightLinks": true
+ "highlightLinks": false
 }

@@ -7,5 +7,5 @@ var story = {
   "height": 1409
  }],
  "title": "ChangePassword",
- "highlightLinks": true
+ "highlightLinks": false
 }

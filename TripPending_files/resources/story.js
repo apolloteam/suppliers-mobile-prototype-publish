@@ -7,5 +7,5 @@ var story = {
   "height": 844
  }],
  "title": "TripPending",
- "highlightLinks": true
+ "highlightLinks": false
 }

@@ -7,5 +7,5 @@ var story = {
   "height": 1705
  }],
  "title": "TripClosure",
- "highlightLinks": true
+ "highlightLinks": false
 }

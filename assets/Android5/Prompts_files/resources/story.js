@@ -7,5 +7,5 @@ var story = {
   "height": 1112
  }],
  "title": "Prompts",
- "highlightLinks": true
+ "highlightLinks": false
 }

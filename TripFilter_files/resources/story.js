@@ -7,5 +7,5 @@ var story = {
   "height": 863
  }],
  "title": "TripFilter",
- "highlightLinks": true
+ "highlightLinks": false
 }

@@ -7,5 +7,5 @@ var story = {
   "height": 1618
  }],
  "title": "ChangeItinerary",
- "highlightLinks": true
+ "highlightLinks": false
 }

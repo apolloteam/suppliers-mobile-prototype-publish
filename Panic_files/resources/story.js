@@ -7,5 +7,5 @@ var story = {
   "height": 1407
  }],
  "title": "Panic",
- "highlightLinks": true
+ "highlightLinks": false
 }

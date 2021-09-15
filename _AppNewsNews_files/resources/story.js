@@ -7,5 +7,5 @@ var story = {
   "height": 2072
  }],
  "title": "_AppNewsNews",
- "highlightLinks": true
+ "highlightLinks": false
 }

@@ -7,5 +7,5 @@ var story = {
   "height": 872
  }],
  "title": "Nexus 6",
- "highlightLinks": true
+ "highlightLinks": false
 }

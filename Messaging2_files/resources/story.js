@@ -7,5 +7,5 @@ var story = {
   "height": 1096
  }],
  "title": "Messaging2",
- "highlightLinks": true
+ "highlightLinks": false
 }

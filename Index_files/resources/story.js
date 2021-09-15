@@ -974,5 +974,5 @@ var story = {
   }
  ],
  "title": "Index",
- "highlightLinks": true
+ "highlightLinks": false
 }

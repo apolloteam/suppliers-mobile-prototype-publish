@@ -7,5 +7,5 @@ var story = {
   "height": 8041
  }],
  "title": "Register",
- "highlightLinks": true
+ "highlightLinks": false
 }

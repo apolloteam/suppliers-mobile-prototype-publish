@@ -7,5 +7,5 @@ var story = {
   "height": 1411
  }],
  "title": "TrackingPanel",
- "highlightLinks": true
+ "highlightLinks": false
 }
