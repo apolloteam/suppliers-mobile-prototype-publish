@@ -1008,6 +1008,13 @@ var story = {
    ],
    "title": "RoutingOrders",
    "height": 3096
+  },
+  {
+   "image": "ShipmentStatusRecipient.png",
+   "width": 406,
+   "links": [],
+   "title": "ShipmentStatusRecipient",
+   "height": 794
   }
  ],
  "title": "Index",
