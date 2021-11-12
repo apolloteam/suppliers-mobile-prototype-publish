@@ -1011,7 +1011,7 @@ var story = {
   },
   {
    "image": "ShipmentStatusRecipient.png",
-   "width": 406,
+   "width": 847,
    "links": [],
    "title": "ShipmentStatusRecipient",
    "height": 794
